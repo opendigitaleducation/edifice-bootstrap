@@ -51,6 +51,6 @@ $container-spacings: (
     font-family: var(--#{$prefix}family-primary);
   }
 
-  @import "./header/component";
+  // @import "./header/component";
   @import "./buttons/component";
 }
