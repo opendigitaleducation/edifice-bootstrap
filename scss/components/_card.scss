@@ -47,6 +47,10 @@
   &-upload {
     display: flex;
 
+    .card-body {
+      min-width: 20%;
+    }
+
     .upload-error {
       color: var(--#{$prefix}danger);
     }
@@ -59,24 +63,19 @@
       color: var(--#{$prefix}primary);
     }
 
-    .action-upload {
+    .action-content {
       display: flex;
-      align-items: center;
+      height: 36px;
 
-      .action-content {
+      .status {
         display: flex;
-        height: 36px;
+        align-items: center;
+      }
 
-        .status {
-          display: flex;
-          align-items: center;
-        }
-
-        .actions {
-          border-left: solid 1px var(--#{$prefix}gray-600);
-          display: flex;
-          align-items: center;
-        }
+      .actions {
+        border-left: solid 1px var(--#{$prefix}gray-600);
+        display: flex;
+        align-items: center;
       }
     }
   }
