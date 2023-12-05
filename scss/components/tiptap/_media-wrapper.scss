@@ -1,4 +1,13 @@
 .ProseMirror {
+  .media-node-view .horizontal-resize-handle {
+    bottom: 0px;
+    left: 0px;
+    height: 1rem;
+    width: 100%;
+    cursor: row-resize;
+    position: absolute;
+  }
+  
   .media-node-view .vertical-resize-handle {
     top: 0px;
     right: 0px;
@@ -7,7 +16,7 @@
     cursor: col-resize;
     position: absolute;
   }
-
+  
   .media-node-view .horizontal-resize-handle:hover,
   .media-node-view .vertical-resize-handle:hover {
     --tw-bg-opacity: 1;
@@ -15,7 +24,7 @@
   }
 }
 
-.buble-menu {
+.bubble-menu {
   background-color: #fff;
   border-radius: 16px;
   display: flex;
