@@ -1,6 +1,12 @@
-.video-embed-provider {
-    &__logo {
-        width: 3rem;
-        height: 3rem;
+.video-embed {
+    &-provider {
+        &-logo {
+            width: 3rem;
+            height: 3rem;
+        }
+    }
+
+    .emptyscreen {
+        max-width: 600px;
     }
 }
